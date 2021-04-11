@@ -49,7 +49,7 @@ body {
 a:active {
   color: #489c79;
 }
-*button {
+button {
   border: none;
   font-family: inherit;
   background-color: #357b70;
@@ -60,9 +60,9 @@ a:active {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: opacity 0.2s;
 }
-*button:hover, *button:focus, .button:hover, .button:focus {
+button:hover, button:focus, .button:hover, .button:focus {
   opacity: 0.8;
-  cursor: pointer,
+  cursor: pointer;
 }
 .profile_portrait {
   float: left;
@@ -174,4 +174,19 @@ animation: 34s cloud-move-reverse infinite alternate linear;
   to {
     transform: translate(200px, 50px);
 }
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;           
 }
