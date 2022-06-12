@@ -54,10 +54,10 @@ a:active {
   color: #489c79;
 }
 
-button {
+.button {
   border: none;
   font-family: inherit;
-  background-color: #357b70;
+  background-color: #ab701c;
   color: white;
   text-decoration: none;
   padding: 10px;
